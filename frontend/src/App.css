@@ -1,0 +1,141 @@
+
+
+.body{
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure the height is fixed */
+    overflow-x: hidden; /* Remove horizontal scrollbar */
+  
+  }
+  /* ****************************  Navbar  ************************ */
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 58px;
+    background-color: rgb(240, 240, 241);
+  }
+  .nav-design{
+    padding: 18px;
+    text-decoration: none;
+    display: flex;
+   color: black;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+  
+    
+  }
+  .nav-design:hover{
+   
+    font-size: 18px;
+    background-color: aqua;
+    transition: 0.5s;
+    color: azure;
+  }
+  /* ************************* SignUp  ****************************** */
+  .signContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 50px;
+    
+  }
+  .signup{
+    width: 400px;
+    height: 450px;
+    background-color:rgb(168, 251, 251);
+   border-radius: 7%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  
+
+  }
+  .ichange{
+    width: 300px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    border-radius:5px;
+    
+    border: solid 2px  rgb(4, 214, 214);
+
+  }
+  .btn{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 170px;
+    height: 40px; 
+    /* font-size: large;
+    font-weight: 600;
+    color: rgb(3, 7, 11); */ 
+    /* background-color:rgba(13, 210, 210, 0.813); */
+    font-size: 18px;
+
+    text-decoration: none;
+    display: flex;
+   color: black;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+  .btn:hover{
+   
+    font-size: 18px;
+    background-color: rgb(5, 206, 206);
+    transition: 0.5s;
+    color: azure;
+  }
+  /* ***********************  Footer   ************************** */
+  .footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width:99vw;
+    background-color: rgb(4, 214, 214);
+    height: 5vh;
+    padding-top: 15px;
+  }
+  .input-validation{
+    color: rgba(252, 15, 15, 0.906);
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+    font-weight: 700;
+    display: block;
+    
+  }
+  .product-list{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .product-list ul li{
+    display: inline-block;
+    border: 1px solid  rgb(4, 214, 214);
+    padding: 5px;
+    width: 150px;
+  }
+  .product-list ul{
+    margin: 0;
+  }
+  .signContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 50px;
+    
+  }
+  .addproduct{
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  }
+  
